@@ -1,5 +1,4 @@
 node_modules
 assets
 .idea
-yarn.lock
 package-lock.json
