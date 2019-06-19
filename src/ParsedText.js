@@ -63,7 +63,7 @@ class ParsedText extends React.Component {
 
     return textExtraction.parse().map((props, index) => {
       return (
-        <ReactNative.Text
+        <ReactNative.TextInput
           key={`parsedText-${index}`}
           {...this.props.childrenProps}
           {...props}
