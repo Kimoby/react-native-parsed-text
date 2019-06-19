@@ -1,5 +1,5 @@
 {
-  "name": "react-native-parsed-text",
+  "name": "@kimoby/react-native-parsed-text",
   "version": "0.0.21",
   "description": "Parse text and make them into multiple React Native Text elements",
   "main": "src/ParsedText.js",
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/taskrabbit/react-native-parsed-text.git"
+    "url": "git+https://github.com/Kimoby/react-native-parsed-text.git"
   },
-  "homepage": "https://github.com/taskrabbit/react-native-parsed-text#readme",
+  "homepage": "https://github.com/Kimoby/react-native-parsed-text#readme",
   "keywords": [
     "text",
     "react-native",
@@ -43,5 +43,8 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "directories": {
+    "test": "test"
   }
 }
