@@ -77,9 +77,9 @@ class ParsedText extends React.Component {
     const { parse, childrenProps, ...remainder } = { ...this.props };
 
     return (
-      <ReactNative.Text ref={ref => (this._root = ref)} {...remainder}>
+      <ReactNative.View ref={ref => (this._root = ref)} {...remainder}>
         {this.getParsedText()}
-      </ReactNative.Text>
+      </ReactNative.View>
     );
   }
 }
